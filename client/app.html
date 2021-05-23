@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Churn Prediction</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<h2>{Male:0, Female:1, Yes:1, No:0}</h2>
+<form class="form">
+	<h2>Monthly Charges (Rupees)</h2>
+    <input class="area"  type="text" id="uiMonthlyCharges" class="floatLabel" name="MonthlyCharges" value="100">
+	<h2>Total Charges (Rupees)</h2>
+    <input class="area"  type="text" id="uiTotalCharges" class="floatLabel" name="TotalCharges" value="1000">
+	<h2>Tenure (Year)</h2>
+    <input class="area"  type="text" id="uiTenure" class="intLabel" name="Tenure" value="1">
+	<h2 >Gender</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-gender-0" name="uiGender" value="0" checked/>
+		<label for="radio-gender-0">0</label>
+		<input type="radio" id="radio-gender-1" name="uiGender" value="1" >
+		<label for="radio-gender-1">1</label>
+	</div>
+</form>
+<form class="form">
+	<h2 style = "position:relative; left:95px; top:-106px;">Senior Citizen</h2>
+	<div style = "position:relative; left:105px; top:-106px;" class="switch-field">
+		<input type="radio" id="radio-SeniorCitizen-0" name="uiSeniorCitizen" value="0" checked/>
+		<label for="radio-SeniorCitizen-0">0</label>
+		<input type="radio" id="radio-SeniorCitizen-1" name="uiSeniorCitizen" value="1"/>
+		<label for="radio-SeniorCitizen-1">1</label>
+	</div>
+	<h2 style = "position:relative; right:190px; top:-115px;">Partner</h2>
+	<div style = "position:relative; right:195px; top:-115px;" class="switch-field">
+		<input type="radio" id="radio-Partner-0" name="uiPartner" value="0" checked/>
+		<label for="radio-Partner-0">0</label>
+		<input type="radio" id="radio-Partner-1" name="uiPartner" value="1"/>
+		<label for="radio-Partner-1">1</label>
+	</div>
+	<h2 style = "position:relative; left:-103px; top:-222px;">Dependents</h2>
+	<div style = "position:relative; left:-90px; top:-222px;" class="switch-field">
+		<input type="radio" id="radio-Dependents-0" name="uiDependents" value="0" checked/>
+		<label for="radio-Dependents-0">0</label>
+		<input type="radio" id="radio-Dependents-1" name="uiDependents" value="1"/>
+		<label for="radio-Dependents-1">1</label>
+	</div>
+	<h2 style = "position:relative; left:20px; top:-327px;">PhoneService</h2>
+	<div style = "position:relative; left:40px; top:-327px;" class="switch-field">
+		<input type="radio" id="radio-PhoneService-0" name="uiPhoneService" value="0" checked/>
+		<label for="radio-tenure-0">0</label>
+		<input type="radio" id="radio-PhoneService-1" name="uiPhoneService" value="1"/>
+		<label for="radio-PhoneService-1">1</label>
+	</div>
+	<h2 style = "position:relative; left:155px; top:-432px;">MultipleLines</h2>
+	<div style = "position:relative; left:165px; top:-432px;" class="switch-field">
+		<input type="radio" id="radio-MultipleLines-0" name="uiMultipleLines" value="0" checked/>
+		<label for="radio-MultipleLines-0">0</label>
+		<input type="radio" id="radio-MultipleLines-1" name="uiMultipleLines" value="1"/>
+		<label for="radio-MultipleLines-1">1</label>
+	</div>
+	<h2 style = "position:relative; left:285px; top:-537px;">PaperlessBilling</h2>
+	<div style = "position:relative; left:300px; top:-537px;" class="switch-field">
+		<input type="radio" id="radio-PaperlessBilling-0" name="uiPaperlessBilling" value="0" checked/>
+		<label for="radio-PaperlessBilling-0">0</label>
+		<input type="radio" id="radio-PaperlessBilling-1" name="uiPaperlessBilling" value="1"/>
+		<label for="radio-PaperlessBilling-1">1</label>
+	</div>
+
+	<h2 style = "position:relative; left:-180px; top:-550px;">InternetService</h2>
+	<div>
+		<select style = "position:relative; left:-180px; top:-550px;" class="location" name="" id="uiInternetService">
+			<option value="" disabled="disabled" selected="selected">Choose the type of Internet Service</option>
+		    <option>DSL</option>
+		</select>
+	</div>
+	<h2 style = "position:relative; left:-180px; top:-550px;">Contract</h2>
+	<div>
+		<select style = "position:relative; left:-180px; top:-550px;" class="location" name="" id="uiContract">
+			<option value="" disabled="disabled" selected="selected">Choose the Type of Contract</option>
+		    <option>month-to-month</option>
+		</select>
+	</div>
+	<h2 style = "position:relative; left:-180px; top:-550px;">Payment Method</h2>
+	<div>
+		<select style = "position:relative; left:-180px; top:-550px;" class="location" name="" id="uiPaymentMethod">
+			<option value="" disabled="disabled" selected="selected">Choose the type of Internet Service</option>
+		    <option>bank transfer (automatic)</option>
+			<option>credit card (automatic)</option>
+		</select>
+	</div>
+	<button style = "position:relative; right:-180px; top:-850px;" class="submit" onclick="onClickedEstimateChurn()" type="button">Churn Estimation</button>
+	<div style = "position:relative; right:-180px; top:-850px;" id="uiEstimateChurn" class="result">	<h2></h2> </div>
+</body>
+</html>
