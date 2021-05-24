@@ -11,6 +11,5 @@ Technologies used-
 
 1. Prgramming Language - Python 3.8
 2. Python Library - Pandas, NumPy
-3. Deep Learning Library - Tensorflow 2.0 for Model Building
-4. Machine Learning Library - Scikit-Learn for confusion_matrix and classification_report
-5. Web Technology - Flask, HTML5, CSS, JavaScript.
+3. Deep Learning Library - Tensorflow 2.3
+4. Web Technology - Flask, HTML5, CSS, JavaScript.
