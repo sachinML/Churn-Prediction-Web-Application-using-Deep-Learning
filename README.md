@@ -10,6 +10,6 @@ Later I have devloped the web application.
 Technologies used-
 
 1. Prgramming Language - Python 3.8
-2. Python Library - Pandas, NumPy
-3. Deep Learning Library - Tensorflow 2.3
+2. Libraries - Pandas, NumPy, Seaborn
+3. Deep Learning Framework - Tensorflow 2.3
 4. Web Technology - Flask, HTML5, CSS, JavaScript.
