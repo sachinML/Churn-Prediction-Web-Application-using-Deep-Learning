@@ -1,5 +1,5 @@
 # Churn-Prediction-Using-Artificial-Neural-Network
-![plot](./Screenshot (887).png)
+![plot](./Screenshot.png)
 
 Customer churn prediction is to measure why customers are leaving a business. In this project I have looked at customer churn in telecom business. I have build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of my model.
 
