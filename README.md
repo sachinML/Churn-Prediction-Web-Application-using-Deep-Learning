@@ -14,7 +14,7 @@ With the help of Flask, HTML, JavaScript I have builded a web application for th
 
 ## Result
 Before balancing the Imbalance data-
-![plot](./3473.png)
+![plot](./3472.png)
 
 After balancing the Imbalance data-
 
