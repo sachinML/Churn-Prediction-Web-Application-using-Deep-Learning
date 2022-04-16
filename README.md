@@ -13,6 +13,11 @@ I have gone through several steps like Data Preprocessing, Data cleaning, Featur
 With the help of Flask, HTML, JavaScript I have builded a web application for this.
 
 ## Result
+Before balancing the Imbalance data-
+![plot](./3473.png)
+
+After balancing the Imbalance data-
+![plot](./3474.png)
 
 
 ## Technologies used
