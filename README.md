@@ -17,6 +17,7 @@ Before balancing the Imbalance data-
 ![plot](./3473.png)
 
 After balancing the Imbalance data-
+
 ![plot](./3474.png)
 
 
