@@ -2,7 +2,7 @@
 ![plot](./Screen.png)
 
 ## Description
-Customer churn prediction is to measure why customers are leaving a business. In this project I have looked at customer churn in telecom business. I have build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of my model.
+Customer churn prediction is to measure why customers are leaving a business. In this I have looked at customer churn in telecom business. I have build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of my model and build a web application on top of this.
 
 ## Dataset
 I have collected the Dataset from Kaggle Website in which Customer account information- how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges Demographic info about customers – gender, age range, and if they have partners and dependents. Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies etc. given in thhe form of 7043*21 size data.
