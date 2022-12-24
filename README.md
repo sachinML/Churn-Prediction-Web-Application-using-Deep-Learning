@@ -9,7 +9,7 @@ I have collected the Dataset from Kaggle Website in which Customer account infor
 
 
 ## Implentation
-I have gone through several steps like Data Preprocessing, Data cleaning, Feature Engineering and Model building and I have then handle the Imbalance data using several techniques like SMOTE and undersampling or oversamplingto improve the score of the minority and majority class such that i can improve the overall F1 score. 
+I have gone through several steps like Data Preprocessing, Data cleaning, Feature Engineering and Model building and I have then handle the Imbalance data using several techniques to improve the score of the minority and majority class such that i can improve the overall F1 score. 
 With the help of Flask, HTML, JavaScript I have builded a web application for this.
 
 ## Result
