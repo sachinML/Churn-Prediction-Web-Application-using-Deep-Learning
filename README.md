@@ -1,4 +1,4 @@
-# Churn-Prediction-Web-Application-using-Deep-Learning
+# Churn-Prediction
 ![plot](./Screen.png)
 
 ## Description
