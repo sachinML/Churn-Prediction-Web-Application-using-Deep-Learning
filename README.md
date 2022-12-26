@@ -1,6 +1,6 @@
 # Churn-Prediction
 
-![](./App.png)
+![](/App.png)
 
 ## Description
 Customer churn prediction is to measure why customers are leaving a business. In this I have looked at customer churn in telecom business.
